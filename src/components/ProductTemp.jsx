@@ -1,6 +1,6 @@
 import React from 'react'
-import product1 from '../images/product_main1.jpg'
-const Product_temp = ({ image, product_title,price}) => {
+
+const ProductTemp = ({ image, product_title,price}) => {
   return (
     <>
     <div className="card">
@@ -22,7 +22,7 @@ const Product_temp = ({ image, product_title,price}) => {
 
   </h3>
  
-  <a href="#" className="buy">Buy Now</a>
+  <span  className="buy">Buy Now</span>
 </div>
 
 </div>
@@ -30,4 +30,4 @@ const Product_temp = ({ image, product_title,price}) => {
   )
 }
 
-export default Product_temp
+export default ProductTemp

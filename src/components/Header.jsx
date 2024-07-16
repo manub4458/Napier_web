@@ -12,12 +12,12 @@ const Header = () => {
         <nav>
           <ul>
             <li className="dropdown">
-              <a href="#" className="dropbtn">Shop &#9662;</a>
+              <span className="dropbtn">Shop &#9662;</span>
               <div className="dropdown-content">
                 <div className='dropmenu'>
                   <div>
                     <div className='leftcontent'>
-                      <a href="#">Shop All Collections</a>
+                      <span>Shop All Collections</span>
                       <img src={arrow} alt="Arrow"
                         height={20} width={20}
                         className='arrow'
@@ -26,7 +26,7 @@ const Header = () => {
                     </div>
                     <div className='hr'></div>
                     <div className='leftcontent'>
-                      <a href="#">Best Sellers</a>
+                      <span>Best Sellers</span>
                       <img src={arrow} alt="Arrow"
                         height={20} width={20}
                         className='arrow'
@@ -35,7 +35,7 @@ const Header = () => {
                     <div className='hr'></div>
 
                     <div className='leftcontent'>
-                      <a href="#">offers</a>
+                      <span>offers</span>
                       <img src={arrow} alt="Arrow"
                         height={20} width={20}
                         className='arrow'
@@ -45,26 +45,26 @@ const Header = () => {
                   </div>
 
                   <div className='listing'>
-                    <a href="#">Shop All Products</a>
-                    <a href="#">Herbal Tinctures</a>
-                    <a href="#">Herbal Remedies</a>
-                    <a href="#">Beauty & Skincare</a>
-                    <a href="#">Aromatherapy</a>
-                    <a href="#">Health & Wellbeing</a>
+                    <li>Shop All Products</li>
+                    <li>Herbal Tinctures</li>
+                    <li>Herbal Remedies</li>
+                    <li>Beauty & Skincare</li>
+                    <li>Aromatherapy</li>
+                    <li>Health & Wellbeing</li>
                   </div>
                 </div>
               </div>
             </li>
-            <li><a href="#">Prescriptions</a></li>
-            <li><a href="#">Napiers</a></li>
-            <li><a href="#">Book a Therapy</a></li>
-            <li><a href="#">Blog</a></li>
+            <li>Prescriptions</li>
+            <li>Napiers</li>
+            <li>Book a Therapy</li>
+            <li>Blog</li>
           </ul>
         </nav>
         <div className="header-icons">
-          <a href="#">Search</a>
-          <a href="#">Sign in</a>
-          <a href="#">Cart</a>
+          <span >Search</span>
+          <span >Sign in</span>
+          <span >Cart </span>
         </div>
       </header>
 

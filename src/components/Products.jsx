@@ -1,13 +1,14 @@
 import React from 'react'
-import Product_card from './Product_card'
-import product1 from '../images/product1.webp'
-import product2 from '../images/product2.webp'
-import product4 from '../images/product4.png'
-import product_main1 from '../images/product_main1.jpg'
-import product_main2 from '../images/product_main2.jpg'
-import main from '../images/main_product.jpg'
+// import Product_card from './Product_card'
+// import product1 from '../images/product1.webp'
+// import product2 from '../images/product2.webp'
+// import product4 from '../images/product4.png'
+// import product_main1 from '../images/product_main1.jpg'
+// import product_main2 from '../images/product_main2.jpg'
+// import main from '../images/main_product.jpg'
 import product10 from '../images/product10.png'
-import Product_temp from './Product_temp'
+import ProductTemp from './ProductTemp'
+// import Product_temp from './ProductTemp'
 
 
 
@@ -62,7 +63,7 @@ const Products = () => {
             className='products'
             >
                <div>
-               <Product_temp 
+               <ProductTemp
                 image={product10}
                 price="2100"
                 product_title="GLOWVEDA"
@@ -71,7 +72,7 @@ const Products = () => {
                 />
                </div>
                <div>
-               <Product_temp 
+               <ProductTemp
                 image={product10}
                 price="2100"
                 product_title="GLOWVEDA"
@@ -80,7 +81,7 @@ const Products = () => {
                 />
                </div>
                <div>
-               <Product_temp 
+               <ProductTemp
                 image={product10}
                 price="2100"
                 product_title="GLOWVEDA"
@@ -89,7 +90,7 @@ const Products = () => {
                 />
                </div>
                <div>
-               <Product_temp 
+               <ProductTemp
                 image={product10}
                 price="2100"
                 product_title="GLOWVEDA"
