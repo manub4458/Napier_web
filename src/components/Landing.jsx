@@ -5,6 +5,7 @@ import CustomSlider from './Slider'
 import Hero from './Hero'
 
 import Products from './Products'
+import Gifts from './Gifts'
 
 const Landing = () => {
   return (
@@ -14,6 +15,7 @@ const Landing = () => {
      <Products />
 
     <CustomSlider />
+    <Gifts />
     </>
   )
 }

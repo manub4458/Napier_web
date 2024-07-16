@@ -15,7 +15,7 @@ const ProductTemp = ({ image, product_title,price}) => {
         product_title
     }
      <h2>
-        {
+        RS.{
             price
         }
      </h2>

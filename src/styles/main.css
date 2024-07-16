@@ -5,16 +5,23 @@ body{
     overflow-x: hidden;
     background-color: #fafaf1;
     
+    
 }
 .poppins {
     font-family: "Poppins", sans-serif;
    
   }
 h1{
-    font-size: 40px;
+    font-size: 48px;
     font-family: "Poppins", sans-serif;
 
     font-weight: 500;
+}
+h2{
+  line-height: none;
+  font-size: 40px;
+  gap: none;
+  margin: 10px auto;
 }
 header {
     display: flex;
@@ -232,7 +239,7 @@ background-color: rgb(39, 36, 36);
     gap: 10px;
   }
   .products{
-    margin: 80px auto;
+    /* margin: 80px auto; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -346,5 +353,69 @@ background-color: rgb(39, 36, 36);
   .mouse {
     height: 300px;
     width: auto;
+  }
+  .shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 90px;
+  }
+  .shop button{
+    background-color: #164F49;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  .shop button:hover{
+    background-color: #04413b;
+    color: white;
+   
+  }
+  .gift_img{
+    height: 420px;
+    width: 1013px;
+  }
+  
+  .container_gifts{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .child_container_gifts{
+    display: flex;
+
+  }
+  .child_container_gifts2{
+    display: flex;
+    justify-content: center;
+
+  }
+  .child_container_gift_text{
+    background-color: #f2e7ce;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   font-size: 42px;
+    width: 100%;
+    padding-left: 40px;
+    font-weight: 200;
+  }
+  .child_container_gift_text span{
+    font-size: 20px;
+    width: 480px;
+  } 
+  .child_container_gift_text button{
+    padding: 20px;
+    background-color: #164f49;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
   }
   

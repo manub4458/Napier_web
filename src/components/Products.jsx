@@ -58,7 +58,20 @@ const Products = () => {
 
 
             </div> */}
-
+            <div className='shop'>
+                 <div>
+                    <h1>
+                        Shop Bestsellers
+                    </h1>
+                 </div>
+                 <div>
+                    <h4>
+                        <button>
+                            Shop Bestsellers
+                        </button>
+                    </h4>
+                 </div>
+            </div>
             <div
             className='products'
             >
