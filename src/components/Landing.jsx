@@ -7,6 +7,8 @@ import Hero from './Hero'
 import Products from './Products'
 // import Gifts from './Gifts'
 import Gift from './Gift'
+import Skin from './Skin'
+import ShopBy from './ShopBy'
 
 const Landing = () => {
   return (
@@ -18,6 +20,8 @@ const Landing = () => {
     <CustomSlider />
     {/* <Gifts /> */}
     <Gift />
+    <Skin />
+    <ShopBy />
     </>
   )
 }
