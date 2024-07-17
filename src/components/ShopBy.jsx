@@ -87,183 +87,70 @@ const ShopBy = () => {
     
    </div>
 
-   <div className='third_child_concern_container'>
-    <div className='health2'>
+   <div className='second_child_concern_container'>
+    <div className='health'>
    <div>
-    <img src={health} alt="" />
+    <img src={health} alt="" className='health_img'/>
    </div>
    <div>
     <h2>
-        Detox
+        Immune Health
     </h2>
-  <p>
-
-  </p>
-    
-   <div className='shop_health2'>
-   <p>
-        Shop Detox
+    <p>
+        From herbal blends to immune-boosting 
+        vitamins & supplements
     </p>
+   <div className='shop_health'>
+   <span>
+        Shop Immune Health
+    </span>
     <img src={arrow} alt=""  width={40} height={40}/>
    </div>
    </div>
     </div>
-    <div className='health2'>
+    <div className='health'>
    <div>
-    <img src={health} alt="" />
+    <img src={sleep} alt=""  className='health_img'/>
    </div>
    <div>
     <h2>
-        Womens health
+        Sleep, Stress & Mood
     </h2>
+    <p>
+        Support regular sleep, manage stress & 
+        promote a  balance mood.
+    </p>
+   <div className='shop_health'>
+   <span>
+        Shop Sleep, Stress & Mood
+    </span>
+    <img src={arrow} alt=""  width={40} height={40}/>
+   </div>
+   </div>
+    </div>
+    <div className='health'>
+   <div>
+    <img src={meno} alt="" className='health_img'/>
+   </div>
+   <div>
+    <h2>
+        Menopause Support
+    </h2>
+    <p>
+        Support your menopause with natural 
+        creams, herbs & supplements
+    </p>
+   <div className='shop_health'>
+   <span>
+        Shop Menopause Support
+    </span>
+    <img src={arrow} alt=""  width={40} height={40}/>
+   </div>
+   </div>
+    </div>
+    
+   </div>
  
-   <div className='shop_health2'>
-   <p>
-        Shop Detox
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    <div className='health2'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Mens Health
-    </h2>
-  
-    
-   <div className='shop_health2'>
-   <p>
-        Shop Mens Health
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-
-
-
-    <div className='health2'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Brain, Health & Focus
-    </h2>
-  
-    
-   <div className='shop_health2'>
-   <p>
-        Brain, Health & Focus
-        Shop 
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    <div className='health2'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Allergy
-    </h2>
-  
-    
-   <div className='shop_health2'>
-   <p>
-        Shop Allergy
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    {/* <div className='health'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Immune Health
-    </h2>
-    <p>
-        From herbal blends to immune-boosting <br />
-        vitamins & supplements
-    </p>
-   <div className='shop_health'>
-   <p>
-        Shop Immune Health
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    <div className='health'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Immune Health
-    </h2>
-    <p>
-        From herbal blends to immune-boosting <br />
-        vitamins & supplements
-    </p>
-   <div className='shop_health'>
-   <p>
-        Shop Immune Health
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    <div className='health'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Immune Health
-    </h2>
-    <p>
-        From herbal blends to immune-boosting <br />
-        vitamins & supplements
-    </p>
-   <div className='shop_health'>
-   <p>
-        Shop Immune Health
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div>
-    <div className='health'>
-   <div>
-    <img src={health} alt="" />
-   </div>
-   <div>
-    <h2>
-        Immune Health
-    </h2>
-    <p>
-        From herbal blends to immune-boosting <br />
-        vitamins & supplements
-    </p>
-   <div className='shop_health'>
-   <p>
-        Shop Immune Health
-    </p>
-    <img src={arrow} alt=""  width={40} height={40}/>
-   </div>
-   </div>
-    </div> */}
-   </div>
    </div>
    
    </>
