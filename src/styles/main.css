@@ -636,3 +636,57 @@ margin: 6px auto;
   width:  110px;
   height: 110px;
 }
+footer{
+  height: 692px;
+  background-color: #103834;
+  color: white;
+ 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 592px;
+  
+}
+footer hr{
+  margin: auto 90px;
+  
+}
+footer li{
+  list-style: none;
+  font-size: 18px;
+}
+.footer_second{
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 664px;
+  height: 412px;
+}
+.footer_socials{
+  display: flex;
+ gap: 20px;
+}
+.heading_footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.bottom select {
+  background-color: #103834;
+color: white;
+padding: 8px 8px;
+}
+.bottom_list{
+  display: flex;
+ column-gap: 20px;
+}

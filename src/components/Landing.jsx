@@ -9,6 +9,7 @@ import Products from './Products'
 import Gift from './Gift'
 import Skin from './Skin'
 import ShopBy from './ShopBy'
+import Footer from './Footer'
 
 const Landing = () => {
   return (
@@ -22,6 +23,7 @@ const Landing = () => {
     <Gift />
     <Skin />
     <ShopBy />
+    <Footer />
     </>
   )
 }
