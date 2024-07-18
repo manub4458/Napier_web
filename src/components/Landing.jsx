@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import '../styles/main.css'
-import CustomSlider from './Slider'
+// import CustomSlider from './Slider'
 import Hero from './Hero'
 
 import Products from './Products'
