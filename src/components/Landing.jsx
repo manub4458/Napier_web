@@ -10,6 +10,7 @@ import Gift from './Gift'
 import Skin from './Skin'
 import ShopBy from './ShopBy'
 import Footer from './Footer'
+import Carousel from './Carousel'
 
 const Landing = () => {
   return (
@@ -18,7 +19,8 @@ const Landing = () => {
      <Hero />
      <Products />
 
-    <CustomSlider />
+    {/* <CustomSlider /> */}
+    <Carousel />
     {/* <Gifts /> */}
     <Gift />
     <Skin />
